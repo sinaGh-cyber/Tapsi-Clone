@@ -19,6 +19,8 @@
 html {
   font-size: 62.5%;
 }
+
+
 /* UTILITY */
 body {
   color: var(--color-body);
@@ -46,6 +48,7 @@ h2 {
     font-size: 2.5rem;
   }
 }
+
 
 /* BUTTONS */
 .btn {
@@ -80,6 +83,8 @@ h2 {
     font-size: 1.8rem;
   }
 }
+
+
 /* BADGE */
 .badge {
   display: inline-block;
@@ -108,6 +113,8 @@ h2 {
     font-size: 1.4rem;
   }
 }
+
+
 /* LISTS */
 .list {
   list-style: none;
@@ -146,3 +153,6 @@ h2 {
     margin-bottom: 2rem;
   }
 }
+
+
+/* PLANS */
