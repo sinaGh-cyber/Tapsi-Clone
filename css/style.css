@@ -1,3 +1,4 @@
+/* RESET */
 *,
 *::after,
 *::before {
@@ -18,7 +19,7 @@
 html {
   font-size: 62.5%;
 }
-
+/* UTILITY */
 body {
   color: var(--color-body);
   font-size: 1.4rem;
@@ -46,6 +47,7 @@ h2 {
   }
 }
 
+/* BUTTONS */
 .btn {
   outline: none;
   border: 0;
@@ -78,7 +80,7 @@ h2 {
     font-size: 1.8rem;
   }
 }
-
+/* BADGE */
 .badge {
   display: inline-block;
   font-size: 1.2rem;
@@ -106,7 +108,7 @@ h2 {
     font-size: 1.4rem;
   }
 }
-
+/* LISTS */
 .list {
   list-style: none;
   font-family: 'vazir';
