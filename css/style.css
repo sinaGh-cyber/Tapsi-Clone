@@ -10,6 +10,7 @@
   --color-navbar: #f8f8f8;
   --color-typography-logo: #545454;
   --color-primary: #ff5722;
+  --color-primary-light: #ff7a50;
   --color-secondary-light: #fff6f2;
   --color-secondary-dark: #ffa589;
   --color-white: #ffffff;
@@ -19,7 +20,6 @@
 html {
   font-size: 62.5%;
 }
-
 
 /* UTILITY */
 body {
@@ -48,7 +48,6 @@ h2 {
     font-size: 2.5rem;
   }
 }
-
 
 /* BUTTONS */
 .btn {
@@ -84,7 +83,6 @@ h2 {
   }
 }
 
-
 /* BADGE */
 .badge {
   display: inline-block;
@@ -113,7 +111,6 @@ h2 {
     font-size: 1.4rem;
   }
 }
-
 
 /* LISTS */
 .list {
@@ -154,5 +151,75 @@ h2 {
   }
 }
 
-
 /* PLANS */
+.block-plan {
+  display: grid;
+  gap: 10.8rem 5rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 320px));
+  margin-top: 5rem;
+}
+.plan {
+  /* max-width: 350px; */
+  transition: all 0.3s ease-in;
+}
+.plan--papular {
+  margin-top: -30px;
+}
+.plan:hover {
+  transform: scale(1.05);
+}
+/* @media screen and (min-width: 1024px) {
+  .block-plan {
+  }
+} */
+
+.plan--primary .card__header {
+  background-color: var(--color-primary-light);
+}
+
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: 'vazir';
+  line-height: 3.6rem;
+}
+.card__header,
+.card__body {
+  padding: 3.4rem 2.2rem;
+}
+.card__header {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-white);
+}
+.card__body {
+  background-color: var(--color-secondary-light);
+}
+.card__body .btn {
+  margin-top: 10rem;
+}
+
+.plan__introduction {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.plan__name {
+  font-size: 1.8rem;
+}
+.plan__price {
+  font-size: 3rem;
+}
+.plan__billing-cycle {
+  font-size: 1.4rem;
+}
+.plan__description {
+  display: block;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+
+.container {
+  /* max-width: 1140px; */
+  margin: inherit auto;
+}
