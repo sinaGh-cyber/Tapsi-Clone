@@ -281,3 +281,44 @@ h2 {
     width: 50%;
   }
 }
+
+/* contact us */
+.contact-us {
+  display: grid;
+  background-color: #ccc;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    'icons'
+    'address'
+    'form';
+}
+.contact-us__form {
+  background-color: red;
+  grid-area: form;
+}
+.contact-us__map {
+  background-color: violet;
+  display: none;
+  grid-area: map;
+}
+.contact-us__icons {
+  background-color: #fe4e00;
+  grid-area: icons;
+}
+.contact-us__address {
+  background-color: gold;
+  grid-area: address;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-us {
+    grid-template-columns: 70fr 30fr;
+    grid-template-areas:
+      'address form'
+      'map form'
+      'icons form';
+  }
+  .contact-us__map {
+    display: block;
+  }
+}
