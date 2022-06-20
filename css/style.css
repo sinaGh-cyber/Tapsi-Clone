@@ -318,6 +318,7 @@ h2 {
 }
 .icon-holder__label {
   margin-left: 1rem;
+  width: 90%;
   font-size: 1.6rem;
   line-height: 2.3rem;
   font-family: 'Graphik Web Regular';
@@ -352,16 +353,18 @@ h2 {
     line-height: 2.5rem;
     font-family: 'Vazir';
     text-align: center;
-    min-height: 6rem;
+    min-height: 9rem;
     padding: 0 1.5rem;
+    display: block;
+    max-width: 250px;
   }
 }
 
 /* icons */
 
 .icon {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 .icon-container {
   display: flex;
