@@ -301,9 +301,15 @@ h2 {
   display: none;
   grid-area: map;
 }
+
 .contact-us__socials {
-  background-color: #fe4e00;
   grid-area: social;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+.contact-us__socials .icon-container {
+  margin-left: 2.5rem;
 }
 .contact-us__icons {
   display: flex;
@@ -358,6 +364,13 @@ h2 {
     display: block;
     max-width: 250px;
   }
+
+  .contact-us__socials {
+    grid-area: social;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+  }
 }
 
 /* icons */
@@ -374,5 +387,5 @@ h2 {
   width: 65px;
   border-radius: 100%;
   cursor: pointer;
-  background-color: var(--color-white);
+  background-color: transparent;
 }
