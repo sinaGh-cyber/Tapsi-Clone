@@ -297,7 +297,6 @@ h2 {
   grid-area: form;
 }
 .contact-us__map {
-  background-color: violet;
   display: none;
   grid-area: map;
 }
@@ -341,7 +340,13 @@ h2 {
       'social form';
   }
   .contact-us__map {
-    display: block;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  .contact-us__map img{
+    width: 100%;
+    height: auto;
   }
 
   .contact-us__icons {
